@@ -1,4 +1,5 @@
-const db = require('../db');
+const db = require('../models/db'); // ✅ BENAR (relatif dari controller)
+
 
 exports.getAllAbsensi = (req, res) => {
   db.query(`

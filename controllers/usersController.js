@@ -1,4 +1,4 @@
-const db = require('../db');
+const db = require('../models/db'); // ✅ BENAR (relatif dari controller)
 
 // GET all users
 exports.getAllUsers = (req, res) => {
